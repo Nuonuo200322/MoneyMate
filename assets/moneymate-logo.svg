@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">MoneyMate logo mark</title>
+  <desc id="desc">Modern navy circular fintech logo with a gradient chat bubble ring, gold coin, and dollar sign.</desc>
+  <defs>
+    <radialGradient id="navy" cx="38%" cy="26%" r="78%">
+      <stop offset="0%" stop-color="#123C76"/>
+      <stop offset="48%" stop-color="#062A58"/>
+      <stop offset="100%" stop-color="#001A3A"/>
+    </radialGradient>
+    <linearGradient id="ringGoldBlue" x1="138" y1="122" x2="388" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFF278"/>
+      <stop offset="30%" stop-color="#F7C547"/>
+      <stop offset="58%" stop-color="#E7A94D"/>
+      <stop offset="80%" stop-color="#32C9F6"/>
+      <stop offset="100%" stop-color="#159DEB"/>
+    </linearGradient>
+    <linearGradient id="coinGold" x1="187" y1="155" x2="326" y2="301" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFF57B"/>
+      <stop offset="48%" stop-color="#F5C453"/>
+      <stop offset="100%" stop-color="#C99645"/>
+    </linearGradient>
+    <filter id="softDepth" x="-15%" y="-15%" width="130%" height="130%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#000A1E" flood-opacity="0.36"/>
+    </filter>
+    <filter id="coinDepth" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="9" stdDeviation="8" flood-color="#000A1E" flood-opacity="0.24"/>
+    </filter>
+  </defs>
+
+  <circle cx="256" cy="256" r="224" fill="url(#navy)"/>
+  <circle cx="256" cy="256" r="223" fill="none" stroke="#174C88" stroke-width="2" opacity="0.35"/>
+  <circle cx="205" cy="146" r="77" fill="#2E6FAB" opacity="0.10"/>
+  <circle cx="331" cy="201" r="98" fill="#00142D" opacity="0.16"/>
+
+  <g filter="url(#softDepth)">
+    <path
+      d="M256 133c76.5 0 138.5 52.6 138.5 117.5S332.5 368 256 368c-21.8 0-42.4-4.3-60.8-11.9L139 389.1c-8.5 5-18.7-2.7-16.1-12.2l18.2-67.3c-14.9-17.3-23.6-37.6-23.6-59.1C117.5 185.6 179.5 133 256 133Zm0 43c-50.1 0-90.8 33.3-90.8 74.5 0 13.7 4.6 26.6 12.5 37.6l-8 29.8 26.2-15.4c16 14 37.3 22.5 60.1 22.5 50.1 0 90.8-33.3 90.8-74.5S306.1 176 256 176Z"
+      fill="url(#ringGoldBlue)"
+      fill-rule="evenodd"
+    />
+    <path
+      d="M256 145c69.4 0 125.6 47.2 125.6 105.5S325.4 356 256 356c-20.9 0-40.5-4.3-57.8-11.9l-59.7 35.1 19.3-71.4c-17.2-16.1-27.4-35.9-27.4-57.3C130.4 192.2 186.6 145 256 145Z"
+      fill="none"
+      stroke="#FFFFFF"
+      stroke-width="2.5"
+      opacity="0.20"
+    />
+  </g>
+
+  <g filter="url(#coinDepth)">
+    <circle cx="256" cy="250" r="61" fill="url(#coinGold)"/>
+    <circle cx="256" cy="250" r="60" fill="none" stroke="#FFF8A0" stroke-width="2.5" opacity="0.8"/>
+    <path
+      d="M257 205v91M231 273.2c7.9 9.1 17.8 13.6 29.7 13.6 14.8 0 25.5-7.5 25.5-19.1 0-10.8-8.1-15.8-28.7-20.7-19.5-4.7-30.2-12.4-30.2-27.3 0-15.4 13.2-25.7 31.6-25.7 11.8 0 21.6 3.5 29.7 10.5"
+      fill="none"
+      stroke="#001E49"
+      stroke-width="18"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">MoneyMate icon</title>
+  <desc id="desc">A simple circular gold chat bubble with a navy inner circle, gold coin, and large dollar sign.</desc>
+  <defs>
+    <linearGradient id="bubbleGold" x1="112" y1="62" x2="410" y2="416" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFF47D"/>
+      <stop offset="46%" stop-color="#F3BE45"/>
+      <stop offset="100%" stop-color="#D49324"/>
+    </linearGradient>
+    <radialGradient id="innerNavy" cx="205" cy="150" r="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#103E76"/>
+      <stop offset="58%" stop-color="#062957"/>
+      <stop offset="100%" stop-color="#001B3C"/>
+    </radialGradient>
+    <linearGradient id="coinGold" x1="186" y1="158" x2="326" y2="304" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFF692"/>
+      <stop offset="48%" stop-color="#F3C04D"/>
+      <stop offset="100%" stop-color="#CF9025"/>
+    </linearGradient>
+    <filter id="softShadow" x="-12%" y="-12%" width="124%" height="124%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#061528" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <polygon points="93 287 201 395 54 434" fill="url(#bubbleGold)"/>
+    <circle cx="256" cy="232" r="190" fill="url(#bubbleGold)"/>
+    <circle cx="256" cy="232" r="160" fill="url(#innerNavy)"/>
+    <circle cx="256" cy="232" r="161.5" fill="none" stroke="#FFF29A" stroke-width="3" opacity="0.26"/>
+    <polygon points="117 305 183 371 93 395" fill="url(#innerNavy)"/>
+
+    <circle cx="256" cy="238" r="124" fill="url(#coinGold)"/>
+    <circle cx="256" cy="238" r="123" fill="none" stroke="#FFF7A6" stroke-width="4" opacity="0.72"/>
+    <text
+      x="256"
+      y="246"
+      text-anchor="middle"
+      dominant-baseline="middle"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="220"
+      font-weight="800"
+      fill="#00204A"
+    >$</text>
+  </g>
+</svg>
